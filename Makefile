@@ -9,7 +9,7 @@ CXXFLAGS = -O3 -march=native
 INCLUDES = -I$(HOME_UMPIRE)/include/
 
 # Libraries
-LIBS = $(HOME_UMPIRE)/libumpire.a \
+LIBS = $(HOME_UMPIRE)/lib/libumpire.a \
        $(HOME_UMPIRE)/lib/libcamp.a \
        -lnuma -lrt -pthread
 
